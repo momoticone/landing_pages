@@ -1,0 +1,197 @@
+
+/* CSS POUR LA PARTIE HEADER */
+body{
+        background-color: blue;
+        width: 99%;
+        top: 0;
+        z-index: 1;
+        position: absolute;
+        
+}
+
+nav{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo {
+    background: url(https://checkr.com/wp-content/themes/checkr/assets/img/logo.svg) 50% 50%/cover no-repeat;
+    width: 130px;
+    height: 33px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -16.5px;
+    display: block;
+    color: transparent;
+    font-size: 0;}
+/* END */
+
+/* DEBUT DU MENU DEROULANT EN HTML */
+
+
+/* MENU DEROULENT PRODUCT */      
+.button_product {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.PRODUCT {
+    position: relative;
+    display: inline-block;
+}
+
+.deroulant_product {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow:auto;
+    left: 140;
+}
+
+.deroulant_product a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.deroulant_product a:hover {
+    background-color: #f1f1f1
+}
+
+.PRODUCT:hover .deroulant_product {
+    display: block;
+}
+
+.PRODUCT:hover .button_product {
+    background-color: transparent;
+}
+
+
+/* END */
+
+/* MENU DEROULENT INDUSTRIES */
+.INDUSTRIES {
+    position: relative;
+    display: inline-block;
+}
+
+.button_ind {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.deroulant_ind {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 140;
+}
+
+.deroulant_ind a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.deroulant_ind a:hover {
+    background-color: #f1f1f1;
+}
+
+.INDUSTRIES:hover .deroulant_ind {
+    display: block;
+}
+
+.INDUSTRIES:hover .button_ind {
+    background-color: transparent;
+}
+/* END */
+
+/* MENU DEROULENT RESOURCES */
+.button_res {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.RESOURCES {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.deroulant_res {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.deroulant_res a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.deroulant_res a:hover {
+    background-color: #f1f1f1;
+}
+
+.RESOURCES:hover .deroulant_res{
+    display: block;
+}
+
+.RESOURCES:hover .button_res {
+    background-color: transparent;
+}  
+/* END */
+/* FIN DU MENU DEROULANT*/
+
+/* BOUTON GET SATRTED */
+.menu-get-started{
+    position: relative;
+    text-decoration: none;
+    opacity: 1;
+    line-height: inherit;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 2px solid #E9CA2C;
+    color: gold;
+}
+
+.menu-log-in{
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+}
+
+.right-nav{
+   display: flex;
+    justify-content: flex-end;
+}
+/* END */
+    
+
+
